@@ -1,13 +1,12 @@
-# Final Project - Where to open a boba shop in San Francisco?
+# Final Project - Where should I open a bubble tea shop in San Francisco?
 
 1. Introduction/Business Problem
-Boba (aka bubble tea) is a popular Asian drink. Similar to coffee shops, boba shops are popular gathering places to do work. If I were to looking to open a boba shop in San Francisco (SF), which already has many boba shops, where would I open it?
+Boba (aka bubble tea) is a popular Asian drink. Similar to coffee shops, boba shops are popular gathering places to do work and meet friends. Based on prior city clustering analysis in Toronto and New York, coffee shops are the most popular venue. In San Francisco, coffee shops are similarly popular. However, boba shops are very similar to coffee shops and boba shop owners can take advantage of the large Asian population in the Bay Area. If I were to looking to open a boba shop in San Francisco (SF), which already has many boba shops, which neighborhood(s) should I open it?
 
 2. Data
-Hypothesis: open a boba shop near other Asian restaurants, but NOT where a high density of boba shops already exists. I am looking for a high density of non-boba, Asian restaurants to open my own boba shop.
-Analyses Steps:
-A. Scrap wikipedia or other source for SF neighborhoods.
-B. Add geographical coordinates to each of the SF neighborhoods.
-C. Scrape Foursquare API to cluster on Asian restaurants.
-D. Scrape Foursquare API to cluster on boba shops.
-E. Determine the neighborhood with high density of Asian restaurants and low density of boba shops.
+Hypothesis: open a boba shop near other Asian restaurants, but NOT where a high density of boba shops already exists. I am looking for a high density of non-boba, Asian restaurants to open my own boba shop. \n
+Analyses Steps: \n
+A. Scrap wikipedia or other source for SF neighborhoods. \n
+B. Add geographical coordinates to each of the SF neighborhoods. \n
+C. Scrape Foursquare API to cluster on Asian restaurants and bubble tea shops. \n
+D. Determine the neighborhood(s) with high density of Asian restaurants and low density of boba shops.
